@@ -25,7 +25,7 @@ export function GameCard({ data, ...rest }: Props) {
           colors={THEME.COLORS.FOOTER}
           style={styles.footer}
         >
-          <Text>
+          <Text style={styles.name}>
             {data.name}
           </Text>
 
